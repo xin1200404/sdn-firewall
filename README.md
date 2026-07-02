@@ -4,8 +4,6 @@
 
 Xinyi Ping, 06/03/2026
 email: xiping@ucsc.edu
-CruzID: xiping
-student ID: 2245279
 
 ---------------------------------------------------
 
@@ -16,10 +14,10 @@ This is mininet topology file. This file is to create switches, hosts, and links
 This is controller file. This file is to implement logic and firewall rules
 
 ## project.pdf ##
-This is final project report containing screenshots and explanations to all final project assingments
+This is project report containing screenshots and explanations
 
 ## README ##
-This is this file. It describes the contents of each file in final project
+This is this file. It describes the contents of each file in project
 
 ---------------------------------------------------
 
@@ -57,5 +55,3 @@ Run "h101 ping -c 3 h102", "h_trust ping -c 3 h102" to test the allowed coomunic
 Run "h_untrust ping -c 2 h101", "h_untrust ping -c 2 h201", "h_untrust ping -c 2 h_server", "h_trust ping -c 2 h201", "h101 ping -c 3 h201" to test the blocked ICMP traffic
 Run "h201 iperf -s &", "h_trust iperf -c 128.114.2.201" to test allowed TCP traffic
 Run "h101 ping -c 1 h103", "dpctl dump-flows" to get the flow tables
-
-All required tasks were completed and documented in project.pdf
